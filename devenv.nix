@@ -2,10 +2,11 @@
 
 {
   packages = with pkgs; [
+    cargo-udeps
   ];
 
   languages.rust = {
     enable = true;
-    channel = "stable";
+    channel = "nightly";
   };
 }
